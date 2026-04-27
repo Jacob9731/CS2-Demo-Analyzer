@@ -1,11 +1,33 @@
 # CS2 Demo Analyzer
 
-This project will analyze Counter-Strike 2 demo files (.dem).
+This project analyzes Counter-Strike 2 (.dem) files and generates player statistics.
 
-Planned Features:
-- Show match info
-- Show player stats
-- Show round summaries
-- Export stats to JSON or CSV
+## Features
+- Parses demo files using demoparser2
+- Displays player stats (Kills, Deaths, K/D, HS%, ADR)
+- Shows first 10 kill events
+- Exports stats to CSV
+- Generates graphs:
+  - Top 5 Kills
+  - Top 5 K/D
+  - Headshot %
 
-Status: In progress
+## How to Run
+1. Install dependencies:
+pip install -r requirements.txt
+
+2. Run the program:
+python analyzer.py
+
+3. Enter your demo file path when prompted
+
+## Example Output
+(Add screenshots here)
+
+## Future Improvements
+- GUI interface
+- More advanced stats (entry kills, clutch stats)
+- Web dashboard (Flask)
+
+## Status
+Completed (Final Project)
